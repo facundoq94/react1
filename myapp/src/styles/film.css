@@ -1,14 +1,6 @@
-.card {
-    width: 50%;
-    height: 300px;
-    border: 1px solid;
-}
 
-h1 {
-    color: red;
-}
 
-.titulo {
-    color: green;
+.portada {
+    width : 100%;
+    object-fit: cover;
 }
-

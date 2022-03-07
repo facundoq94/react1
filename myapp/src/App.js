@@ -1,16 +1,17 @@
 import logo from './assets/logo.svg';
 import './styles/App.css';
 
-import Header from './components/header';
 import Film from './components/film';
+import Form from './components/form';
+
+var titulo = "la gran estafa";
 
 function App() {
   return (
-    <div className="App">
-    <Header />
-    <Film />
+    <div className='App'>
+    <Film titulo={titulo} />
 
-      
+    <Form />
     </div>
   );
 }
